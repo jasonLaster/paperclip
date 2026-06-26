@@ -9,3 +9,4 @@ __pycache__/
 .luarc.json
 
 *node_modules/
+.vercel

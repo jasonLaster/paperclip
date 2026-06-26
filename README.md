@@ -12,6 +12,10 @@
 
 > Important the server is no longer hosted on `paperclip.matsjfunke.com/mcp` you need to host it yourself! For that you can fork this repo and use the `deploy.yml` Github Action to host on a simple VPS ([my simple VPS setup guide](https://matsjfunke.com/compendiums/hetzner))
 
+This fork also includes a Vercel-compatible ASGI wrapper. See
+[Vercel MCP deployment](docs/vercel-mcp.md) for deploy, protection-bypass, and
+test instructions.
+
 ## Quick Start
 
 Setup the paperclip MCP server in your host via the server url no authentication is needed.
@@ -34,6 +38,7 @@ Example JSON for cursor:
 - [Usage Examples](#usage-examples)
 - [Supported Paper providers](#supported-paper-providers)
 - [Preprint Providers to be added](#preprint-providers-to-be-added)
+- [Vercel MCP deployment](docs/vercel-mcp.md)
 - [Contributing](#contributing)
 
 ## Usage Examples
